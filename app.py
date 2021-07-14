@@ -299,7 +299,7 @@ def get_content_based_recommendations(name_string, note_type, rec_type='match',d
 
 # external bootstrap theme
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.FLATLY],suppress_callback_exceptions = True)
-#server=app.server
+server=app.server
 
 
 # sidebar style 
